@@ -1,0 +1,9 @@
+create table t_date_dim (
+	date_key INT PRIMARY KEY NOT NULL,
+	day_of_the_week VARCHAR(15),
+	month_ VARCHAR(15),
+	year_ VARCHAR(15),
+	weekend Boolean,
+	holiday Boolean,
+	holiday_name Varchar(50)
+)
