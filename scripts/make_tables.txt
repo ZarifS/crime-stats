@@ -7,3 +7,14 @@ create table t_date_dim (
 	holiday Boolean,
 	holiday_name Varchar(50)
 )
+
+
+create table t_location_dim (
+	location_key INT PRIMARY KEY NOT NULL,
+	location_name VARCHAR(50),
+	longitude float,
+	latitude float,
+	neighborhood VARCHAR(50),
+	city VARCHAR(50),
+	crime_rate float
+)
