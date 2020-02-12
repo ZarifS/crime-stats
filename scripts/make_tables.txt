@@ -18,3 +18,14 @@ create table t_location_dim (
 	city VARCHAR(50),
 	crime_rate float
 )
+
+
+CREATE TABLE t_crime_dim(
+   crime_key serial PRIMARY KEY,
+   crime_report_time TIME,
+   crime_start_time TIME,
+   crime_end_time TIME,
+   crime_type VARCHAR(150),
+   crime_category VARCHAR(50),
+   crime_severity_index float
+);
