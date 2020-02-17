@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
 import pandas as pd 
@@ -14,7 +14,7 @@ vancover_data = pd.read_csv("../datasets/vancouver-data.csv")
 vancover_data.head(5)
 
 
-# In[18]:
+# In[5]:
 
 
 # Drop uneeded columns from dataset
@@ -22,7 +22,7 @@ new_van_data = vancover_data.drop(['TYPE', 'YEAR', 'MONTH', 'DAY', 'HOUR', 'MINU
 new_van_data.head(5)
 
 
-# In[20]:
+# In[6]:
 
 
 # This is a function that converts a x,y into long and lat values and then returns it
@@ -79,7 +79,14 @@ def utmToLatLng(zone, easting, northing, northernHemisphere=True):
     return (latitude, longitude)
 
 
-# In[4]:
+# In[7]:
+
+
+# Number of rows in the dataset
+print(new_van_data.shape[0])
+
+
+# In[9]:
 
 
 # Here we are sending all our x,y to get a list of corresponding lat and long
@@ -93,10 +100,10 @@ for i in range(0, len(new_van_data['Y'].values), 1000):
         result = utmToLatLng(10, x, y)
         latitudes.append(result[0])
         longitudes.append(result[1])    
-    
+print(len(longitudes))
 
 
-# In[7]:
+# In[10]:
 
 
 # We set our long and lat values in our dataset
@@ -105,14 +112,14 @@ new_van_data['latitude'] = latitudes
 new_van_data.head(5)
 
 
-# In[6]:
+# In[11]:
 
 
 cols = new_van_data.columns.tolist()
 print(cols)
 
 
-# In[8]:
+# In[12]:
 
 
 # We get rid of X,Y columns
@@ -121,7 +128,7 @@ new_data = new_van_data[new_cols]
 new_data.head(5)
 
 
-# In[9]:
+# In[13]:
 
 
 # Renaming the columns here
@@ -129,49 +136,62 @@ data = new_data.rename(columns={"HUNDRED_BLOCK": "location_name", "NEIGHBOURHOOD
 data.head(5)
 
 
-# In[10]:
+# In[14]:
 
 
-print('Total number of rows, including duplicates:', data.size)
+print('Total number of rows, including duplicates:', data.shape[0])
 
 
-# In[21]:
+# In[15]:
 
 
 # Dropping our duplicate location_name rows here
 data.drop_duplicates(subset ="location_name", inplace = True) 
-print('Total number of rows, without duplicates:', data.size)
+print('Total number of rows, without duplicates:',data.shape[0])
 
 
-# In[12]:
+# In[16]:
 
 
 data.head(5)
 
 
-# In[13]:
+# In[17]:
 
 
-# Here we are adding vancouver to city for the entire dataset as well as a unique id which is
-data['city'] = ['Vancouver' for i in range(len(data.values))]
-data['location_key'] = [i for i in range(len(data.values))]
+# Here we are adding vancouver to city for the entire dataset
+data['city'] = ['Vancouver' for i in range(data.shape[0])]
 data.head(5)
 
 
-# In[14]:
+# In[18]:
 
 
-print('Total number of rows:', data.size)
+# Create a unique id per row in the database for location_key
+import uuid
+location_key = []
+for i in range(data.shape[0]):
+    id = uuid.uuid4() 
+    location_key.append(id)
+print(len(location_key))
 
 
-# In[15]:
+# In[19]:
+
+
+# Add location_key into dataframe
+data['location_key'] = location_key
+data.head(5)
+
+
+# In[20]:
 
 
 cols = data.columns.tolist()
 print(cols)
 
 
-# In[22]:
+# In[21]:
 
 
 # Here we shift the order of the columns so it goes id, name, neighborhood, city, long, lat - to match sql table.
@@ -180,7 +200,7 @@ data = data[new_cols]
 data.head(5)
 
 
-# In[17]:
+# In[22]:
 
 
 # Finally here we convert the dataframe to a csv file to store in our repo
