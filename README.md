@@ -15,48 +15,15 @@ Suppose that, in subsequent discussions, the city council of Ottawa voted to cre
 
 Note: In order to win this contract, your team would thus need to convince the city council to secure substantial financial and human resources.
 
-# Dataset Features
-
-[Denver](https://www.notion.so/ee23c42609bd40e48f2a080b6ca793bf)
-
-## Vancouver
-
 **Data for each column is available in the PDF in the project folder.**
 
-TYPE - Type of Crime
+# Contributing
 
-YEAR - Year when the reported crime activity occurred
-
-MONTH - Month when the reported crime activity occurred
-
-DAY - Day when the reported crime activity occurred
-
-HOUR - Hour when the reported crime activity occurred
-
-MINUTE - Minute when the reported crime activity occurred
-
-HUNDRED_BLOCK- Generalized location of the report crime activity
-
-NEIGHBOURHOOD - Neighbourhood where the reported crime activity occurred
-
-X - Coordinate values projected in UTM Zone 10
-
-Y - Coordinate values projected in UTM Zone 10
-
-Latitude - Coordinate values converted to Latitude
-
-Longitude - Coordinate values converted to Longitude
-
-[Combination](https://www.notion.so/d746798faa854f92a3020e8495eaad94)
-
-
-###Contributing
-
-##GIT LFS
+## GIT LFS
 1) run 'git lfs install' in the project directory
 2) run 'git lfs pull' to pull the dataset into the correct directory 
 
-#Python VENV
+## Python VENV
 0) Install jupyter notebook on your machine
 1) Create a virtual environment called venv in the project directory
 2) Activate the virtual environment
@@ -66,12 +33,10 @@ Longitude - Coordinate values converted to Longitude
 6) change the jupyter notebook kernel to 'venv' (Look at the Kernel tab in toolbar')
 4) start jupyter notebook from with in the project directory
 
-##Connecting to postgress database through terminal
+## Connecting to postgress database through terminal
 0) Install psql on your local machine
 1) psql -h www.eecs.uottawa.ca -p 15432 -U <part_before_@_in_uottawa_email> --password
 2) \c group_9 #make sure that the database is group 9, not your local database
 3) run script to copy to a table
 e.g) \copy t_location_dim from /home/zaid/Documents/crime-stats/vancouver-datasets/vancouver-address.csv with delimiter ',' csv header
-** be careful the script on brightspace has a typo not 'delimited', but 'delimiter' instead
-
-3) 
+**be careful the script on brightspace has a typo not 'delimited', but 'delimiter' instead**
