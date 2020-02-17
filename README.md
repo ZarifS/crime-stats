@@ -65,3 +65,13 @@ Longitude - Coordinate values converted to Longitude
 5) start jupyter notebook from the project directory
 6) change the jupyter notebook kernel to 'venv' (Look at the Kernel tab in toolbar')
 4) start jupyter notebook from with in the project directory
+
+##Connecting to postgress database through terminal
+0) Install psql on your local machine
+1) psql -h www.eecs.uottawa.ca -p 15432 -U <part_before_@_in_uottawa_email> --password
+2) \c group_9 #make sure that the database is group 9, not your local database
+3) run script to copy to a table
+e.g) \copy t_location_dim from /home/zaid/Documents/crime-stats/vancouver-datasets/vancouver-address.csv with delimiter ',' csv header
+** be careful the script on brightspace has a typo not 'delimited', but 'delimiter' instead
+
+3) 
