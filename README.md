@@ -48,3 +48,20 @@ Latitude - Coordinate values converted to Latitude
 Longitude - Coordinate values converted to Longitude
 
 [Combination](https://www.notion.so/d746798faa854f92a3020e8495eaad94)
+
+
+###Contributing
+
+##GIT LFS
+1) run 'git lfs install' in the project directory
+2) run 'git lfs pull' to pull the dataset into the correct directory 
+
+#Python VENV
+0) Install jupyter notebook on your machine
+1) Create a virtual environment called venv in the project directory
+2) Activate the virtual environment
+3) run 'pip3 -r install requirements.txt'
+4) run 'ipython kernel install --user --name=venv'
+5) start jupyter notebook from the project directory
+6) change the jupyter notebook kernel to 'venv' (Look at the Kernel tab in toolbar')
+4) start jupyter notebook from with in the project directory
