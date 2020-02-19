@@ -1,0 +1,4 @@
+
+Command to run sql sql script from Windows
+
+\i 'C:/Users/Johan/Desktop/Demo/SQL Scripts/table_create.sql'
