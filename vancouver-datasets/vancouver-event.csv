@@ -1,0 +1,105 @@
+event_key,event_name,event_year,event_month,event_day,event_hour,event_minute,event_type,event_genre,event_venue_name,event_address,event_postal_code,event_latitude,event_longitude
+1a4fb018-d52f-4884-b19d-d443fffb922f,Toronto FC at Vancouver Whitecaps,2015,3,7,15,0,Sports,Soccer,BC Place,777 Pacific Boulevard,V6B 4Y8,49.276666999999996,-123.111944
+88f3c50b-6217-45dd-9f89-35c8b0ab08b8,Portland Timbers at Vancouver Whitecaps,2015,3,28,17,0,Sports,Soccer,BC Place,778 Pacific Boulevard,V6B 4Y9,49.276666999999996,-123.111944
+34eeb055-b386-4351-a4af-18b8d724419c,Los Angeles Galaxy at Vancouver Whitecaps,2015,4,4,19,0,Sports,Soccer,BC Place,779 Pacific Boulevard,V6B 4Y10,49.276666999999996,-123.111944
+0bd483c4-42fd-45b8-8f1f-091cf32fc2c5,Columbus Crew SC at Vancouver Whitecaps,2015,4,8,19,0,Sports,Soccer,BC Place,780 Pacific Boulevard,V6B 4Y11,49.276666999999996,-123.111944
+06a8435e-aa2b-4ee0-b589-4261c3396987,D.C. United at Vancouver Whitecaps,2015,4,25,19,30,Sports,Soccer,BC Place,781 Pacific Boulevard,V6B 4Y12,49.276666999999996,-123.111944
+2fe98d13-4fc0-4f40-9576-519cd97492db,Philadelphia Union at Vancouver Whitecaps,2015,5,9,16,0,Sports,Soccer,BC Place,782 Pacific Boulevard,V6B 4Y13,49.276666999999996,-123.111944
+deded325-ba58-4f5c-8bc4-13096687f34d,Seattle Sounder FC at Vancouver Whitecaps,2015,5,16,16,0,Sports,Soccer,BC Place,783 Pacific Boulevard,V6B 4Y14,49.276666999999996,-123.111944
+a65cdea5-081d-4f6d-8a66-a002526ed15f,Real Salt Lake at Vancouver Whitecaps,2015,5,30,15,0,Sports,Soccer,BC Place,784 Pacific Boulevard,V6B 4Y15,49.276666999999996,-123.111944
+4783f1d9-1e88-4873-b193-4b500895a786,Sporting Kansas City at Vancouver Whitecaps,2015,7,12,18,0,Sports,Soccer,BC Place,785 Pacific Boulevard,V6B 4Y16,49.276666999999996,-123.111944
+fb49d2a7-594d-433a-a64a-51971c6abcd9,San Jose Earthquakes at Vancouver Whitecaps,2015,7,26,16,0,Sports,Soccer,BC Place,786 Pacific Boulevard,V6B 4Y17,49.276666999999996,-123.111944
+2acd4b8d-03b5-4c40-b909-d988280cbc31,Seattle Sounder FC at Vancouver Whitecaps,2015,8,5,19,0,Sports,Soccer,BC Place,787 Pacific Boulevard,V6B 4Y18,49.276666999999996,-123.111944
+21c436ad-5dfc-4007-a99d-42d9783020db,Real Salt Lake at Vancouver Whitecaps,2015,8,8,19,0,Sports,Soccer,BC Place,788 Pacific Boulevard,V6B 4Y19,49.276666999999996,-123.111944
+35c2769c-71ee-4bb7-9124-92bc86812a6b,FC Dallas at Vancouver Whitecaps,2015,8,22,19,0,Sports,Soccer,BC Place,789 Pacific Boulevard,V6B 4Y20,49.276666999999996,-123.111944
+d066edea-9889-4d00-b294-8ea6c9201e2b,Montreal Impact at Vancouver Whitecaps,2015,8,26,19,0,Sports,Soccer,BC Place,790 Pacific Boulevard,V6B 4Y21,49.276666999999996,-123.111944
+4c0c2e98-90b6-41dd-92e8-54c8909b93cd,Colorado Rapids at Vancouver Whitecaps,2015,9,9,19,0,Sports,Soccer,BC Place,791 Pacific Boulevard,V6B 4Y22,49.276666999999996,-123.111944
+3d058e98-33f7-4698-927e-ec7a7c25bf98,CD Olimpia at Vancouver Whitecaps,2015,9,16,19,0,Sports,Soccer,BC Place,792 Pacific Boulevard,V6B 4Y23,49.276666999999996,-123.111944
+1e0a7600-b966-4731-919e-126e9d839d0d,Seattle Sounder FC at Vancouver Whitecaps,2015,9,19,16,0,Sports,Soccer,BC Place,793 Pacific Boulevard,V6B 4Y24,49.276666999999996,-123.111944
+5e6c2d4d-90c3-4f6f-ad70-638eb3b4f561,New York City FC at Vancouver Whitecaps,2015,9,26,19,0,Sports,Soccer,BC Place,794 Pacific Boulevard,V6B 4Y25,49.276666999999996,-123.111944
+4974d2ee-d71c-4b53-a060-3fb229e24d86,FC Dallas at Vancouver Whitecaps,2015,10,7,19,0,Sports,Soccer,BC Place,795 Pacific Boulevard,V6B 4Y26,49.276666999999996,-123.111944
+139d99e4-c8d3-4ae7-b870-c680deb3dea1,Houston Dynamo at Vancouver Whitecaps,2015,10,25,16,0,Sports,Soccer,BC Place,796 Pacific Boulevard,V6B 4Y27,49.276666999999996,-123.111944
+75dccab3-76db-4f7d-ae65-466fcc6eb5ef,Portland Timbers at Vancouver Whitecaps,2015,11,8,19,0,Sports,Soccer,BC Place,797 Pacific Boulevard,V6B 4Y28,49.276666999999996,-123.111944
+c2190f5f-8f90-473c-b03d-055c19a8cec4,Montreal Impact at Vancouver Whitecaps,2016,3,6,14,30,Sports,Soccer,BC Place,798 Pacific Boulevard,V6B 4Y29,49.276666999999996,-123.111944
+f0c41215-9a35-477f-8956-4dffc765eded,Houston Dynamo at Vancouver Whitecaps,2016,3,26,19,0,Sports,Soccer,BC Place,799 Pacific Boulevard,V6B 4Y30,49.276666999999996,-123.111944
+075d120a-c93e-4c73-a6b1-51388a315bb8,Los Angeles Galaxy at Vancouver Whitecaps,2016,4,2,19,0,Sports,Soccer,BC Place,800 Pacific Boulevard,V6B 4Y31,49.276666999999996,-123.111944
+a3f74ecf-5f50-4069-abd7-27a5d70167d7,FC Dallas at Vancouver Whitecaps,2016,4,23,19,30,Sports,Soccer,BC Place,801 Pacific Boulevard,V6B 4Y32,49.276666999999996,-123.111944
+91cfb716-423d-4453-82dc-d5716bc2b95b,Sporting Kansas City at Vancouver Whitecaps,2016,4,27,19,30,Sports,Soccer,BC Place,802 Pacific Boulevard,V6B 4Y33,49.276666999999996,-123.111944
+774ce9a6-c99e-4701-988b-a5b79031164f,Portland Timbers at Vancouver Whitecaps,2016,5,7,14,0,Sports,Soccer,BC Place,803 Pacific Boulevard,V6B 4Y34,49.276666999999996,-123.111944
+67a66dae-0728-4a7d-9cdf-b308ef074745,Chicago Fire FC at Vancouver Whitecaps,2016,5,11,19,0,Sports,Soccer,BC Place,804 Pacific Boulevard,V6B 4Y35,49.276666999999996,-123.111944
+82db408c-ed84-4859-be6b-c96ea2719bcb,Houston Dynamo at Vancouver Whitecaps,2016,5,28,15,0,Sports,Soccer,BC Place,805 Pacific Boulevard,V6B 4Y36,49.276666999999996,-123.111944
+2dfe39d6-5f71-4643-8c13-0535781c60c9,Ottawa Fury FC at Vancouver Whitecaps,2016,6,8,19,0,Sports,Soccer,BC Place,806 Pacific Boulevard,V6B 4Y37,49.276666999999996,-123.111944
+aa6732c0-6434-4fde-9361-d3002e1b262e,New England Revolution at Vancouver Whitecaps,2016,6,18,16,0,Sports,Soccer,BC Place,807 Pacific Boulevard,V6B 4Y38,49.276666999999996,-123.111944
+f2be2ef2-de61-4b80-81e0-e2a9c39e013c,Toronto FC at Vancouver Whitecaps,2016,6,29,19,30,Sports,Soccer,BC Place,808 Pacific Boulevard,V6B 4Y39,49.276666999999996,-123.111944
+8b114527-93ae-4d58-af38-1d1f66898b1d,Colorado Rapids at Vancouver Whitecaps,2016,7,9,19,0,Sports,Soccer,BC Place,809 Pacific Boulevard,V6B 4Y40,49.276666999999996,-123.111944
+d3639cac-41b9-4b67-ade9-c36067024fc2,Real Salt Lake at Vancouver Whitecaps,2016,7,13,19,30,Sports,Soccer,BC Place,810 Pacific Boulevard,V6B 4Y41,49.276666999999996,-123.111944
+463b2b43-5e1e-4b34-b027-0c77b5d24928,Orlando City SC at Vancouver Whitecaps,2016,7,16,19,0,Sports,Soccer,BC Place,811 Pacific Boulevard,V6B 4Y42,49.276666999999996,-123.111944
+c9a832d7-f71a-417e-b6c2-27c50ee7ec6b,Crystal Palace FC,2016,7,19,19,0,Sports,Soccer,BC Place,812 Pacific Boulevard,V6B 4Y43,49.276666999999996,-123.111944
+ac5149ea-1f7a-4cfa-8fe1-26b66ce1902d,San Jose Earthquakes at Vancouver Whitecaps,2016,8,12,20,0,Sports,Soccer,BC Place,813 Pacific Boulevard,V6B 4Y44,49.276666999999996,-123.111944
+35991868-2336-42c8-9759-256bbe6e67c1,Sporting Kansas City at Vancouver Whitecaps,2016,8,23,19,0,Sports,Soccer,BC Place,814 Pacific Boulevard,V6B 4Y45,49.276666999999996,-123.111944
+80f91d23-d2fa-4dbb-8806-88e3b43c3a73,New York Red Bulls at Vancouver Whitecaps,2016,9,3,16,0,Sports,Soccer,BC Place,815 Pacific Boulevard,V6B 4Y46,49.276666999999996,-123.111944
+b8186ba2-214d-43cb-aa17-118e02952ddc,Colorado Rapids at Vancouver Whitecaps,2016,9,24,16,0,Sports,Soccer,BC Place,816 Pacific Boulevard,V6B 4Y47,49.276666999999996,-123.111944
+3607c0ba-6404-4127-ad00-68a6b5a0687c,Central FC at Vancouver Whitecaps,2016,9,28,19,0,Sports,Soccer,BC Place,817 Pacific Boulevard,V6B 4Y48,49.276666999999996,-123.111944
+1b5f7974-9c6e-4ab2-8ff4-cb980b0301a3,Seattle Sounder FC at Vancouver Whitecaps,2016,10,2,17,0,Sports,Soccer,BC Place,818 Pacific Boulevard,V6B 4Y49,49.276666999999996,-123.111944
+30bc9afc-8e11-4605-83f5-2551b0ce8640,Portland Timbers at Vancouver Whitecaps,2016,10,23,13,0,Sports,Soccer,BC Place,819 Pacific Boulevard,V6B 4Y50,49.276666999999996,-123.111944
+52fd7d72-cf2e-4b20-ba53-0754e65f96d6,New York Red Bulls at Vancouver Whitecaps,2017,3,2,19,0,Sports,Soccer,BC Place,820 Pacific Boulevard,V6B 4Y51,49.276666999999996,-123.111944
+437b4dff-6ff9-4dab-9106-0b6ba4bd7edb,Philadelphia Union at Vancouver Whitecaps,2017,3,5,18,30,Sports,Soccer,BC Place,821 Pacific Boulevard,V6B 4Y52,49.276666999999996,-123.111944
+887ad1a7-7d32-4976-9b7a-597d2517f906,Toronto FC at Vancouver Whitecaps,2017,3,18,13,0,Sports,Soccer,BC Place,822 Pacific Boulevard,V6B 4Y53,49.276666999999996,-123.111944
+16720bbd-6f8e-4c76-99c4-d10b5575226f,Los Angeles Galaxy at Vancouver Whitecaps,2017,4,1,19,0,Sports,Soccer,BC Place,823 Pacific Boulevard,V6B 4Y54,49.276666999999996,-123.111944
+c120cc7a-de38-4230-85a7-d315713d0fa9,Tigers UANL at Vancouver Whitecaps,2017,4,5,19,0,Sports,Soccer,BC Place,824 Pacific Boulevard,V6B 4Y55,49.276666999999996,-123.111944
+b07dbf2e-1db3-431b-8899-f0de78a2d186,Seattle Sounder FC at Vancouver Whitecaps,2017,4,14,19,0,Sports,Soccer,BC Place,825 Pacific Boulevard,V6B 4Y56,49.276666999999996,-123.111944
+8d1bf7e2-2cd9-4a3e-bec7-4822138e653d,Sporting Kansas City at Vancouver Whitecaps,2017,5,20,16,0,Sports,Soccer,BC Place,826 Pacific Boulevard,V6B 4Y57,49.276666999999996,-123.111944
+1e2cc5ba-2eeb-45bb-9096-9031ca2bad32,Montreal Impact at Vancouver Whitecaps,2017,5,23,19,0,Sports,Soccer,BC Place,827 Pacific Boulevard,V6B 4Y58,49.276666999999996,-123.111944
+c4f3fd6c-22d4-4e9e-988f-1569aebb8a92,D.C. United at Vancouver Whitecaps,2017,5,27,16,0,Sports,Soccer,BC Place,828 Pacific Boulevard,V6B 4Y59,49.276666999999996,-123.111944
+ded3aea1-d817-4c45-ae5f-f4383d58c56c,Atlanta United FC at Vancouver Whitecaps,2017,6,3,14,30,Sports,Soccer,BC Place,829 Pacific Boulevard,V6B 4Y60,49.276666999999996,-123.111944
+6bc40205-c0e0-4332-a584-61a6bb3eb2d9,FC Dallas at Vancouver Whitecaps,2017,6,17,19,0,Sports,Soccer,BC Place,830 Pacific Boulevard,V6B 4Y61,49.276666999999996,-123.111944
+f994bfd6-a3be-4dd5-8029-fb98ff66ab81,New York City FC at Vancouver Whitecaps,2017,7,5,19,0,Sports,Soccer,BC Place,831 Pacific Boulevard,V6B 4Y62,49.276666999999996,-123.111944
+4babb26f-5364-4b7b-90fb-7feb825675db,Portland Timbers at Vancouver Whitecaps,2017,7,23,15,30,Sports,Soccer,BC Place,832 Pacific Boulevard,V6B 4Y63,49.276666999999996,-123.111944
+b8e891fc-ded4-4eee-8017-fd9bfdf69479,Houston Dynamo at Vancouver Whitecaps,2017,8,19,19,0,Sports,Soccer,BC Place,833 Pacific Boulevard,V6B 4Y64,49.276666999999996,-123.111944
+2408d5ec-3951-421e-b440-99c93752d791,Seattle Sounder FC at Vancouver Whitecaps,2017,8,23,19,0,Sports,Soccer,BC Place,834 Pacific Boulevard,V6B 4Y65,49.276666999999996,-123.111944
+3d32f9f4-8243-422f-bf76-1c8652822574,Real Salt Lake at Vancouver Whitecaps,2017,9,9,19,0,Sports,Soccer,BC Place,835 Pacific Boulevard,V6B 4Y66,49.276666999999996,-123.111944
+ffa51a0a-99d1-4657-b129-1a42ad4b0d97,Minnesota United FC at Vancouver Whitecaps,2017,9,13,19,0,Sports,Soccer,BC Place,836 Pacific Boulevard,V6B 4Y67,49.276666999999996,-123.111944
+53dd9094-5bf7-4463-b56b-236faf246fee,Columbus Crew SC at Vancouver Whitecaps,2017,9,16,16,0,Sports,Soccer,BC Place,837 Pacific Boulevard,V6B 4Y68,49.276666999999996,-123.111944
+a400d739-a3f2-47f7-bdd6-f780561d47ef,Colorado Rapids at Vancouver Whitecaps,2017,9,23,19,0,Sports,Soccer,BC Place,838 Pacific Boulevard,V6B 4Y69,49.276666999999996,-123.111944
+040953b5-ef20-4ca9-a9fa-4617bcdf5395,San Jose Earthquakes at Vancouver Whitecaps,2017,10,25,19,30,Sports,Soccer,BC Place,839 Pacific Boulevard,V6B 4Y70,49.276666999999996,-123.111944
+c94130a3-68c4-4dce-9c45-0727888f8a31,Seattle Sounder FC at Vancouver Whitecaps,2017,10,29,17,30,Sports,Soccer,BC Place,840 Pacific Boulevard,V6B 4Y71,49.276666999999996,-123.111944
+f0ebe024-dc26-4188-ad99-56ad76496615,Montreal Impact at Vancouver Whitecaps,2018,3,4,15,0,Sports,Soccer,BC Place,841 Pacific Boulevard,V6B 4Y72,49.276666999999996,-123.111944
+990daf80-378d-453b-9701-0a46732a481e,Los Angeles Galaxy at Vancouver Whitecaps,2018,3,24,19,0,Sports,Soccer,BC Place,842 Pacific Boulevard,V6B 4Y73,49.276666999999996,-123.111944
+1134842f-41dc-483b-9453-b3ada8d30cb1,Los Angeles Football Club at Vancouver Whitecaps,2018,4,13,19,0,Sports,Soccer,BC Place,843 Pacific Boulevard,V6B 4Y74,49.276666999999996,-123.111944
+715d854c-864e-4252-9b67-5a825115c6e6,Real Salt Lake at Vancouver Whitecaps,2018,4,27,19,30,Sports,Soccer,BC Place,844 Pacific Boulevard,V6B 4Y75,49.276666999999996,-123.111944
+f9b9d5aa-16d4-422b-8cba-85ff2a0f0dce,Houston Dynamo at Vancouver Whitecaps,2018,5,11,19,30,Sports,Soccer,BC Place,845 Pacific Boulevard,V6B 4Y76,49.276666999999996,-123.111944
+f4c62b54-4426-4e84-be27-1d6a763e3f4b,San Jose Earthquakes at Vancouver Whitecaps,2018,5,16,19,30,Sports,Soccer,BC Place,846 Pacific Boulevard,V6B 4Y77,49.276666999999996,-123.111944
+bf8f8104-1c9f-40d5-87a3-8ee3ec774316,New England Revolution at Vancouver Whitecaps,2018,5,26,14,30,Sports,Soccer,BC Place,847 Pacific Boulevard,V6B 4Y78,49.276666999999996,-123.111944
+ffec7d5b-a354-4e62-82e3-802df2bd2dcf,Orlando City SC at Vancouver Whitecaps,2018,6,9,16,0,Sports,Soccer,BC Place,848 Pacific Boulevard,V6B 4Y79,49.276666999999996,-123.111944
+2fb845b0-2ba4-4021-bb3d-f90a6df3b8ae,Colorado Rapids at Vancouver Whitecaps,2018,7,1,16,0,Sports,Soccer,BC Place,849 Pacific Boulevard,V6B 4Y80,49.276666999999996,-123.111944
+af872c6f-ae13-449f-8ac6-837444d9072b,Chicago Fire FC at Vancouver Whitecaps,2018,7,7,19,30,Sports,Soccer,BC Place,850 Pacific Boulevard,V6B 4Y81,49.276666999999996,-123.111944
+bfd0009b-a932-4fe5-bfb6-a0065062426f,Montreal Impact at Vancouver Whitecaps,2018,7,25,19,0,Sports,Soccer,BC Place,851 Pacific Boulevard,V6B 4Y82,49.276666999999996,-123.111944
+5268ab6e-a0ed-4843-913c-56abf0bb369e,Minnesota United FC at Vancouver Whitecaps,2018,7,28,19,0,Sports,Soccer,BC Place,852 Pacific Boulevard,V6B 4Y83,49.276666999999996,-123.111944
+d02526eb-a9bb-421e-a37d-c2e24f2f4936,Toronto FC at Vancouver Whitecaps,2018,8,8,19,0,Sports,Soccer,BC Place,853 Pacific Boulevard,V6B 4Y84,49.276666999999996,-123.111944
+264bb33b-d063-4d4f-bb76-042f15481583,New York Red Bulls at Vancouver Whitecaps,2018,8,18,16,0,Sports,Soccer,BC Place,854 Pacific Boulevard,V6B 4Y85,49.276666999999996,-123.111944
+4c4bd745-f02d-4240-bffb-8dbf15ad9614,San Jose Earthquakes at Vancouver Whitecaps,2018,9,1,19,0,Sports,Soccer,BC Place,855 Pacific Boulevard,V6B 4Y86,49.276666999999996,-123.111944
+afb0f233-22fe-4ec0-b4d2-be74f03ed2b6,Seattle Sounder FC at Vancouver Whitecaps,2018,9,15,19,0,Sports,Soccer,BC Place,856 Pacific Boulevard,V6B 4Y87,49.276666999999996,-123.111944
+bc233684-51a4-4116-8679-5ed4ae11836a,FC Dallas at Vancouver Whitecaps,2018,9,23,16,0,Sports,Soccer,BC Place,857 Pacific Boulevard,V6B 4Y88,49.276666999999996,-123.111944
+5945e7ac-6a89-4352-8275-c021395918ed,Sporting Kansas City at Vancouver Whitecaps,2018,10,17,19,0,Sports,Soccer,BC Place,858 Pacific Boulevard,V6B 4Y89,49.276666999999996,-123.111944
+0967f610-9617-4112-ab77-c7581001d6d4,Portland Timbers at Vancouver Whitecaps,2018,10,28,13,30,Sports,Soccer,BC Place,859 Pacific Boulevard,V6B 4Y90,49.276666999999996,-123.111944
+15e1c54b-8f98-4f4a-9384-532808c5be8e,Minnesota United FC at Vancouver Whitecaps,2019,3,2,15,0,Sports,Soccer,BC Place,860 Pacific Boulevard,V6B 4Y91,49.276666999999996,-123.111944
+56fb5296-6600-4cb6-84ab-351b264200dc,Seattle Sounder FC at Vancouver Whitecaps,2019,3,30,19,0,Sports,Soccer,BC Place,861 Pacific Boulevard,V6B 4Y92,49.276666999999996,-123.111944
+19939d3a-6eee-4ad0-8cd6-722fff303639,Los Angeles Galaxy at Vancouver Whitecaps,2019,4,5,19,0,Sports,Soccer,BC Place,862 Pacific Boulevard,V6B 4Y93,49.276666999999996,-123.111944
+b348f880-f49d-4b6f-97d8-1321cb0daeac,Los Angeles Football Club at Vancouver Whitecaps,2019,4,17,19,0,Sports,Soccer,BC Place,863 Pacific Boulevard,V6B 4Y94,49.276666999999996,-123.111944
+ca91309a-5b7d-4567-b7c9-d8e43cd5640c,Philadelphia Union at Vancouver Whitecaps,2019,4,27,19,0,Sports,Soccer,BC Place,864 Pacific Boulevard,V6B 4Y95,49.276666999999996,-123.111944
+2c9ced0b-a150-4289-9697-e3cf9b5a34d6,Portland Timbers at Vancouver Whitecaps,2019,5,10,19,0,Sports,Soccer,BC Place,865 Pacific Boulevard,V6B 4Y96,49.276666999999996,-123.111944
+65f43d5e-3362-4b0d-938a-e6fea75b0346,Atlanta United FC at Vancouver Whitecaps,2019,5,15,19,0,Sports,Soccer,BC Place,866 Pacific Boulevard,V6B 4Y97,49.276666999999996,-123.111944
+794c749e-c580-4561-8500-ecaf92ee7952,FC Dallas at Vancouver Whitecaps,2019,5,31,19,0,Sports,Soccer,BC Place,867 Pacific Boulevard,V6B 4Y98,49.276666999999996,-123.111944
+3719b31b-dc9e-4410-ad51-1d4da78ec198,Colorado Rapids at Vancouver Whitecaps,2019,6,22,19,0,Sports,Soccer,BC Place,868 Pacific Boulevard,V6B 4Y99,49.276666999999996,-123.111944
+11921c15-660c-411c-b71c-124922a77eb8,Sporting Kansas City at Vancouver Whitecaps,2019,7,13,19,0,Sports,Soccer,BC Place,869 Pacific Boulevard,V6B 4Y100,49.276666999999996,-123.111944
+1428559f-0dab-421f-bf6e-a05cafa713e2,San Jose Earthquakes at Vancouver Whitecaps,2019,7,20,19,0,Sports,Soccer,BC Place,870 Pacific Boulevard,V6B 4Y101,49.276666999999996,-123.111944
+7fe1ba47-7ac8-4e23-830c-52ae305204aa,Cavalry FC at Vancouver Whitecaps,2019,7,24,19,30,Sports,Soccer,BC Place,871 Pacific Boulevard,V6B 4Y102,49.276666999999996,-123.111944
+337d624d-cfa9-4943-bf12-4ab6e0a8dac3,D.C. United at Vancouver Whitecaps,2019,8,17,19,0,Sports,Soccer,BC Place,872 Pacific Boulevard,V6B 4Y103,49.276666999999996,-123.111944
+65d74425-f2f5-46a5-b7ba-20c1a821861a,New York City FC at Vancouver Whitecaps,2019,8,31,19,0,Sports,Soccer,BC Place,873 Pacific Boulevard,V6B 4Y104,49.276666999999996,-123.111944
+e73b5138-769b-4105-a5e2-d380b701fe77,Houston Dynamo at Vancouver Whitecaps,2019,9,14,19,0,Sports,Soccer,BC Place,874 Pacific Boulevard,V6B 4Y105,49.276666999999996,-123.111944
+ff8264a2-2d37-47f1-80aa-881d938961e0,Columbus Crew SC at Vancouver Whitecaps,2019,9,21,14,0,Sports,Soccer,BC Place,875 Pacific Boulevard,V6B 4Y106,49.276666999999996,-123.111944
+f69d71d2-c835-47a2-a04b-89591a68e377,Real Salt Lake at Vancouver Whitecaps,2019,10,6,13,0,Sports,Soccer,BC Place,876 Pacific Boulevard,V6B 4Y107,49.276666999999996,-123.111944
+94d44c47-64ed-4b8e-b2ab-0bd048ef4f72,King Crimson,2015,11,26,20,0,Music,Rock,Vogue Theatre,918 Granville Street,V6Z 1L2,49.279796000000005,-123.12166100000002
+77ee9521-c133-43fb-b3b2-bd4a844bfe81,King Crimson,2015,11,27,20,0,Music,Rock,Vogue Theatre,918 Granville Street,V6Z 1L2,49.279796000000005,-123.12166100000002
+c06441ff-e9fe-4255-a948-a3589630ac41,Tonight! Tobias Jesso Jr. with Okay Kaya,2015,3,30,20,0,Music,Indie,Electric Owl,926 Main Street,V6A 2W1,49.276111,-123.09944399999999
+b1b10e6a-a535-4932-bc74-7e3a588a2e2e,Sleater-Kinney with THEESatisfaction @ The Commodore Ballroom,2015,5,6,20,0,Music,Rock,The Commodore Ballroom,868 Granville Street,V6Z 1K3,49.280556,-123.120833
