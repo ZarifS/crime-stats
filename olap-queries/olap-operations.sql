@@ -1,9 +1,9 @@
--- Drill Down
+-- Drill Down (Emeka)
 
--- Roll Up
+-- Roll Up (Emeka)
 
--- Slice
+-- Slice (Zarif)
 
--- Dice
+-- Dice (Zarif)
 
--- Combined Operations
+-- Combined Operations (Zaid)

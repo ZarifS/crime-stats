@@ -1,5 +1,5 @@
--- Iceberg
+-- Iceberg (Emeka)
 
--- Windowing
+-- Windowing (Zarif)
 
--- Utilizing Windowing Clause
+-- Utilizing Windowing Clause (Zaid)
