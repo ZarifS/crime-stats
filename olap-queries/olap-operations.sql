@@ -1,5 +1,17 @@
 -- Drill Down (Emeka)
-
+SELECT "Location"."city" AS "city",
+  SUM(1) AS "sum:Number of Records:ok",
+  "Location"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+) "Location"
+GROUP BY 1,
+  3
 -- Roll Up (Emeka)
 
 -- Slice (Zarif)
@@ -8,13 +20,3 @@
 
 -- Combined Operations (Zaid)
 
-SELECT "Custom SQL Query"."neighborhood" AS "neighborhood",
-  SUM("Custom SQL Query"."count") AS "sum:count:ok"
-FROM (
-  SELECT I.neighborhood, count(*)
-  FROM t_location_dim as I
-  INNER JOIN t_fact_table as a
-  ON I.location_key = a.location_key
-  GROUP BY neighborhood
-) "Custom SQL Query"
-GROUP BY 1
