@@ -1,6 +1,9 @@
--- Drill Down (Emeka)
+-- Drill Down
+
+-- Roll Up Query - Total number of crimes per year, per city.
+
 SELECT "Location"."city" AS "city",
-  SUM(1) AS "sum:Number of Records:ok",
+  SUM(1) AS "Number of Records",
   "Location"."year" AS "year"
 FROM (
   select * from
@@ -10,9 +13,7 @@ FROM (
   inner join t_date_dim
   on t_fact_table.date_key = t_date_dim.date_key
 ) "Location"
-GROUP BY 1,
-  3
--- Roll Up (Emeka)
+GROUP BY 1,3
 
 -- Slice (Zarif)
 
