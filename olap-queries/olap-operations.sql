@@ -70,5 +70,33 @@ GROUP BY 1,
 
 -- Dice (Zarif)
 
+/*
+Number of crimes per location (city -> neighbourhood -> locaiton name) per year
+in January, February and March
+*/
+
+SELECT "Location"."city" AS "city",
+  "Location"."day" AS "day",
+  "Location"."location_name" AS "location_name",
+  "Location"."month" AS "month",
+  "Location"."neighborhood" AS "neighborhood",
+  SUM(1) AS "sum:Number of Records:ok",
+  "Location"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+) "Location"
+WHERE ("Location"."month" IN ('1', '2', '3'))
+GROUP BY 1,
+  2,
+  3,
+  4,
+  5,
+  7
+
 -- Combined Operations (Zaid)
 
