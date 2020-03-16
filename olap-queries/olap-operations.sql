@@ -92,6 +92,19 @@ GROUP BY 1,
 
 -- Slice (Zarif)
 
+/* Number of crimes that occurr on March 2016*/
+SELECT "Date_AND_Fact"."city" AS "city",
+  SUM(1) AS "number_of_crimes"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+) "Date_AND_Fact"
+WHERE (("Date_AND_Fact"."month" = '3') AND ("Date_AND_Fact"."year" = '2016'))
+GROUP BY 1
 
 
 -- Dice (Zarif)
