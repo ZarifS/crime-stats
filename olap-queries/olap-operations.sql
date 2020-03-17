@@ -149,7 +149,7 @@ GROUP BY 1,
   6;
 
 -- Combined Operations
---Query 1: Number of thefts that took place on the same day as a sporting event in Denver and Vancouver
+--Query 1: Number of theft related crimes that took place on the same day as a sporting event in Denver and Vancouver
 
 SELECT "All Joins on Same Dates"."city" AS "city",
   "All Joins on Same Dates"."crime_type" AS "crime_type",
