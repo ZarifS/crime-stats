@@ -88,7 +88,7 @@ FROM (
   on t_fact_table.location_key = t_location_dim.location_key
 ) "Date_AND_Fact"
 WHERE (("Date_AND_Fact"."month" = '3') AND ("Date_AND_Fact"."year" = '2016'))
-GROUP BY 1
+GROUP BY 1;
 
 -- Slice Query 2 - Number of crimes that occurr per location
 select l.neighborhood, l.city, d.year, SUM(1) AS "number_of_crimes" 
@@ -97,7 +97,7 @@ inner join t_date_dim as d
 on f.date_key = d.date_key
 inner join t_location_dim as l
 on f.location_key = l.location_key
-group by (l.neighborhood, l.city, d.year)
+group by (l.neighborhood, l.city, d.year);
 
 -- Dice Query 1 - Number of crimes per location (city -> neighbourhood -> locaiton name) per year in January, February and March
 SELECT "Location"."city" AS "city",
@@ -121,7 +121,7 @@ GROUP BY 1,
   3,
   4,
   5,
-  7
+  7;
 
 -- Dice Query 2: Number of fatal crimes that occured in the following Vancouver neighbourhoods
 -- (Central Business District, Grandview-Woodland, Marpole, Mount Pleasant, West End)
