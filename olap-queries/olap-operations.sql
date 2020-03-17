@@ -146,7 +146,59 @@ GROUP BY 1,
   2,
   3,
   4,
-  6
+  6;
 
 -- Combined Operations
+--Query 1: Number of thefts that took place on the same day as a sporting event in Denver and Vancouver
 
+SELECT "All Joins on Same Dates"."city" AS "city",
+  "All Joins on Same Dates"."crime_type" AS "crime_type",
+  "All Joins on Same Dates"."event_type" AS "event_type",
+  SUM(1) AS "sum:Number of Records:ok",
+  "All Joins on Same Dates"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+  inner join t_event_dim
+  on t_fact_table.event_key = t_event_dim.event_key
+  inner join t_crime_dim
+  on t_fact_table.crime_key = t_crime_dim.crime_key
+  WHERE cast(year as int) = cast(event_year as int) and cast(month as int) = cast(event_month as int) and cast(day as int) = cast(event_day as int)
+) "All Joins on Same Dates"
+WHERE (("All Joins on Same Dates"."crime_type" IN ('Theft', 'Theft from Vehicle', 'Theft of Vehicle')) AND ("All Joins on Same Dates"."event_type" = 'Sports'))
+GROUP BY 1,
+  2,
+  3,
+  5;
+
+-- Query 2: Number of homicides that took place on the same day as a sporting event on a weekend in Denver and Vancouver
+
+SELECT "All Joins on Same Dates"."city" AS "city",
+  "All Joins on Same Dates"."crime_type" AS "crime_type",
+  "All Joins on Same Dates"."event_type" AS "event_type",
+  "All Joins on Same Dates"."is_weekend" AS "is_weekend",
+  SUM(1) AS "sum:Number of Records:ok",
+  "All Joins on Same Dates"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+  inner join t_event_dim
+  on t_fact_table.event_key = t_event_dim.event_key
+  inner join t_crime_dim
+  on t_fact_table.crime_key = t_crime_dim.crime_key
+  WHERE cast(year as int) = cast(event_year as int) and cast(month as int) = cast(event_month as int) and cast(day as int) = cast(event_day as int)
+) "All Joins on Same Dates"
+WHERE (("All Joins on Same Dates"."crime_type" = 'Homicide') AND ("All Joins on Same Dates"."event_type" = 'Sports') AND "All Joins on Same Dates"."is_weekend")
+GROUP BY 1,
+  2,
+  3,
+  4,
+  6
