@@ -123,5 +123,30 @@ GROUP BY 1,
   5,
   7
 
+-- Dice Query 2: Number of fatal crimes that occured in the following Vancouver neighbourhoods
+-- (Central Business District, Grandview-Woodland, Marpole, Mount Pleasant, West End)
+-- during the winter months (Jan, Feb and Dec) each year.
+
+SELECT "Location"."city" AS "city",
+  "Location"."is_fatal" AS "is_fatal",
+  "Location"."month" AS "month",
+  "Location"."neighborhood" AS "neighborhood",
+  SUM(1) AS "sum:Number of Records:ok",
+  "Location"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+) "Location"
+WHERE (("Location"."city" = 'Vancouver') AND "Location"."is_fatal" AND ("Location"."month" IN ('1', '12', '2')) AND ("Location"."neighborhood" IN ('Central Business District', 'Grandview-Woodland', 'Marpole', 'Mount Pleasant', 'West End')))
+GROUP BY 1,
+  2,
+  3,
+  4,
+  6
+
 -- Combined Operations
 
