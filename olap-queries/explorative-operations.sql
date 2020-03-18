@@ -100,6 +100,5 @@ lag(count) over (order by neighborhood, month, year) as previous_year_count,
 lead(count) over (order by neighborhood, month, year) as next_year_count
 from init_window
 window g AS (PARTITION BY month, neighborhood, year)
-limit 11;
 
 -- window query #2
