@@ -78,9 +78,11 @@ GROUP BY 1,
   6
 
 -- Utilizing Windowing Clause (Zaid)
+-- window query #1
 -- compares # of crimes per neighborhood from month to month 
 -- uses the window clause 
-select distinct
+with init_window as 
+(select distinct
 	count(day) over w, 
 	month, 
 	neighborhood, 
@@ -90,4 +92,14 @@ inner join t_date_dim on t_fact_table.date_key = t_date_dim.date_key
 inner join t_location_dim on t_fact_table.location_key = t_location_dim.location_key
 WINDOW w AS (PARTITION BY month, neighborhood, year
 			 order by neighborhood, month, year)
-order by neighborhood, month, year;
+order by neighborhood, month, year)
+
+
+select *,
+lag(count) over (order by neighborhood, month, year) as previous_year_count,
+lead(count) over (order by neighborhood, month, year) as next_year_count
+from init_window
+window g AS (PARTITION BY month, neighborhood, year)
+limit 11;
+
+-- window query #2
