@@ -52,4 +52,29 @@ GROUP BY 2,
   5,
   6;
 
+-- window query #2 - avg number of occurrences per season
+SELECT (CASE WHEN ((CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 12) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 1) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 2)) THEN 'Winter' WHEN ((CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 3) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 4) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 5)) THEN 'Spring' WHEN ((CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 6) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 7) OR (CAST(TRUNC(CAST("Location"."month" AS DOUBLE PRECISION)) AS BIGINT) = 8)) THEN 'Summer' ELSE 'Fall' END) AS "season",
+  "Location"."city" AS "city",
+  "Location"."crime_type" AS "crime_type",
+  "Location"."neighborhood" AS "neighborhood",
+  CAST (SUM(1) AS FLOAT)/90 AS "avg_ocurrence_per_season",
+  "Location"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+  inner join t_crime_dim
+  on t_fact_table.crime_key = t_crime_dim.crime_key
+  inner join t_event_dim
+  on t_fact_table.event_key = t_event_dim.event_key
+) "Location"
+GROUP BY 1,
+  2,
+  3,
+  4,
+  6
+
 -- Utilizing Windowing Clause (Zaid)
