@@ -78,21 +78,16 @@ GROUP BY 1,
   6
 
 -- Utilizing Windowing Clause (Zaid)
--- HAS BUG IN IT!! Returns alot of duplicates
 -- compares # of crimes per neighborhood from month to month 
 -- uses the window clause 
-SELECT 
-   COUNT(*) over w,
-   month,
-   neighborhood,
-   year
-FROM (
-  select distinct * from
-  t_fact_table
-  full outer join t_location_dim
-  on t_fact_table.location_key = t_location_dim.location_key
-  full outer join t_date_dim
-  on t_fact_table.date_key = t_date_dim.date_key
-) "Location"
-WINDOW w AS (PARTITION BY neighborhood order by month, year)
-limit 1000
+select distinct
+	count(day) over w, 
+	month, 
+	neighborhood, 
+	year
+from t_fact_table
+inner join t_date_dim on t_fact_table.date_key = t_date_dim.date_key
+inner join t_location_dim on t_fact_table.location_key = t_location_dim.location_key
+WINDOW w AS (PARTITION BY month, neighborhood, year
+			 order by neighborhood, month, year)
+order by neighborhood, month, year;
