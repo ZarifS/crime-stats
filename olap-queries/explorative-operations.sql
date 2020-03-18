@@ -26,5 +26,30 @@ ORDER BY total ASC
 LIMIT 5;
 
 -- Windowing (Zarif)
+--window query #1 - avg. # of occurrences per month for each crime_type for each neighbourhood
+
+SELECT CAST (SUM(1) AS FLOAT)/30 AS "avg_ocurrence_per_month",
+  "Location"."city" AS "city",
+  "Location"."crime_type" AS "crime_type",
+  "Location"."month" AS "month",
+  "Location"."neighborhood" AS "neighborhood",
+  "Location"."year" AS "year"
+FROM (
+  select * from
+  t_fact_table
+  inner join t_location_dim
+  on t_fact_table.location_key = t_location_dim.location_key
+  inner join t_date_dim
+  on t_fact_table.date_key = t_date_dim.date_key
+  inner join t_crime_dim
+  on t_fact_table.crime_key = t_crime_dim.crime_key
+  inner join t_event_dim
+  on t_fact_table.event_key = t_event_dim.event_key
+) "Location"
+GROUP BY 2,
+  3,
+  4,
+  5,
+  6;
 
 -- Utilizing Windowing Clause (Zaid)
