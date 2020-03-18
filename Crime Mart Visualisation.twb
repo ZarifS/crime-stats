@@ -2230,8 +2230,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='42' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97298' id='41' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
+            <zone h='100000' id='48' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97298' id='47' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
                 <zone fixed-size='280' h='48648' id='3' is-fixed='true' name='Combined OLAP 1' w='84761' x='693' y='1351'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2314,8 +2314,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97298' id='36' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
+            <zone h='100000' id='43' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97298' id='42' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
                 <zone fixed-size='280' h='48649' id='3' is-fixed='true' name='Dice 1' w='98614' x='693' y='1351'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2394,8 +2394,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='51' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97298' id='50' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
+            <zone h='100000' id='57' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97298' id='56' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
                 <zone fixed-size='280' h='48649' id='3' is-fixed='true' name='Drill Down 1' w='84761' x='693' y='1351'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2469,8 +2469,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97298' id='40' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
+            <zone h='100000' id='47' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97298' id='46' param='vert' type='layout-flow' w='98614' x='693' y='1351'>
                 <zone fixed-size='212' h='27504' id='3' is-fixed='true' name='Roll Up 1' w='98614' x='693' y='1351'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2535,8 +2535,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='36' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='43' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='42' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='199' h='25906' id='3' is-fixed='true' name='Slice 1' w='99034' x='483' y='878'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2601,8 +2601,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='7' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='6' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='13' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='39500' id='3' is-fixed='true' name='window 1' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
