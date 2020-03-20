@@ -102,3 +102,26 @@ from init_window
 window g AS (PARTITION BY month, neighborhood, year)
 
 -- window query #2
+-- Denver window query 
+with american_holidays as
+	(select distinct
+		count(day) over w,
+		american_holiday_name,
+		year,
+		city
+	from t_fact_table
+	inner join t_date_dim on t_fact_table.date_key = t_date_dim.date_key
+	inner join t_crime_dim on t_fact_table.crime_key = t_crime_dim.crime_key
+	inner join t_location_dim on t_fact_table.location_key = t_location_dim.location_key
+	where city = 'Denver'
+	WINDOW w AS (PARTITION BY american_holiday_name, year
+				 order by year)
+	order by year)
+	
+select *,
+  lag(count) over (order by american_holiday_name, year) as previous_year_count,
+  lead(count) over (order by american_holiday_name, year) as next_year_count
+from american_holidays
+window g AS (PARTITION BY american_holiday_name, year)
+
+--Vancouver window query
