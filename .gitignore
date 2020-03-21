@@ -1,2 +1,3 @@
 .DS_STORE
 venv/
+machine_learning/psql_sample.ini
