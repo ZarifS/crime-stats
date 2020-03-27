@@ -1,3 +1,5 @@
 .DS_STORE
 venv/
 machine_learning/psql_sample.ini
+machine_learning/ensemble
+machine_learning/log_reg
