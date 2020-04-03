@@ -1,6 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
-edge [fontname=helvetica] ;
-0 [label="Month <= 1.5\ngini = 0.92\nsamples = 462534\nvalue = [44316, 35303, 36071, 36736, 38875, 38568, 39995, 41126\n39656, 39616, 36391, 35881]\nclass = S", fillcolor="#e5813902"] ;
-1 [label="gini = 0.0\nsamples = 44316\nvalue = [44316, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nclass = S", fillcolor="#e58139ff"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
